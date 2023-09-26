@@ -11,7 +11,7 @@ class openAiConnect:
             access_token = data['API_key']
         return access_token
 
-    def call_api(self, prompt, api_key, engine="text-davinci-002", max_tokens=500):
+    def call_api(self, prompt, api_key, engine="text-davinci-002", max_tokens= 500):
         while True:
             url = "https://api.openai.com/v1/engines/{}/completions".format(engine)
             headers = {
