@@ -1,0 +1,1 @@
+"\n\nFeature: Deleting account\n\n  Scenario: User deletes account\n    Given user is on the homepage\n    When user navigates to the account page\n    And user clicks on the delete account button\n    Then user's account is deleted"

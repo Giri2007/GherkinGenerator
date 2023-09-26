@@ -1,0 +1,1 @@
+" app\n\nAssuming that you want a Gherkin Scenario Outline for creating an account into a Google app:\n\nScenario Outline: Creating an account into a Google app\nGiven I am on the Google app\nWhen I create an account with \"<username>\" and \"<password>\"\nThen I am logged in with my new account"
